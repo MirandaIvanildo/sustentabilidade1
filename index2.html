@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <link rel="stylesheet" href="styles2.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmitando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/logo-vetor.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="" alt="Logo Marmitando"></a>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a id="botao-ativo" href="#cardapio">Cardápio</a></li>
+                <li><a href="#kit-marmitas">Kit marmitas</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#como-montar">Dicas Marmitando</a></li>
+            </ul>
+        </nav>
+        <div class="carrinho-compras">
+            <img class="carrinho" src="./assets/carrinho.svg" alt="Carrinho de compra">
+            <span class="notificacao"><i class="fa-regular fa-bell"></i></span>
+        </div>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="cardapio" class="nosso-cardapio verde">
+            <div class="titulo">
+                <h1>Nosso cardápio</h1>
+                <p>Nutrição Balanceada, Custos Amigáveis! Conheça todos os nossos produtos</p>
+            </div>
+
+            <div class="conteudo">
+                <div class="cardapio-opcao">
+                    <div class="opcao">
+                        <h2>Opção 1: 250g</h2>
+                        <ul>
+                            <li>Frango em cubo</li>
+                            <li>Brócolis</li>
+                            <li>Purê de batata</li>
+                        </ul>
+                    </div>
+
+                    <div class="opcao">
+                        <h2>Opção 2: 250g</h2>
+                        <ul>
+                            <li>Frango desfiado com cenoura</li>
+                            <li>purê de mandioquinha</li>
+                            <li>Repolho refolgado</li>
+                        </ul>
+                    </div>
+
+                    <div class="opcao">
+                        <h2>Opção 3: 250g</h2>
+                        <ul>
+                            <li>Carne moída</li>
+                            <li>Purê de abóbora</li>
+                            <li>Mix de legumes (abobrinha, cenoura e brócolis)</li>
+                        </ul>
+                    </div>
+
+                    <div class="opcao">
+                        <h2>Opção 4: 250g</h2>
+                        <ul>
+                            <li>Arroz integral ou branco</li>
+                            <li>Carne de panela</li>
+                            <li>Mix de legumes</li>
+                        </ul>
+                    </div>
+
+                    <div class="opcao">
+                        <h2>Opção 5: 250g</h2>
+                        <ul>
+                            <li>Arroz branco ou integral</li>
+                            <li>Filé de frango</li>
+                            <li>Cenoura refogada</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="imagem-marmitando">
+                    <img src="https://media.istockphoto.com/id/1742839360/pt/foto/mature-woman-sitting-at-the-table-for-a-quick-lunch-in-front-of-a-blue-plate-with-a-mixed.jpg?s=1024x1024&w=is&k=20&c=yhlHC1VZiGecccckarAwnlKtdVKRE5dK8aIwnkhqicU=" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="kit-marmitas" class="kit-marmitas branco">
+            <div class="titulo">
+                <h1>Kit marmitas</h1>
+            </div>
+
+            <div class="conteudo">
+                <div class="produto">
+                    <div>
+                        <img class="imagem-produto" src="https://media.istockphoto.com/id/1407933773/pt/foto/buffet-food-catering-food-party-at-restaurant-mini-canapes-snacks-and-appetizers.jpg?s=1024x1024&w=is&k=20&c=JktVroFQwh6nXKEGIrkcsPU6riTxbayOF4Zc751VL9E=" alt="">
+                    </div>
+                    <span class="opcao-produto">Opção 1:250g</span>
+                    <h3 class="descricao-produto">Frango em cubos, brócolis e purê de batata</h3>
+                    <div class="preco-botao-comprar">
+                        <p class="preco-produto">R$16,00</p>
+                        <input class="botao-comprar-produto" type="button" value="Comprar">
+                    </div>
+                </div>
+
+                <div class="produto">
+                    <div>
+                        <img class="imagem-produto" src="https://media.istockphoto.com/id/1402946305/pt/foto/group-of-friends-havign-breakfast-outdoors.jpg?s=1024x1024&w=is&k=20&c=1EoCCOahi-5rbR_0oukbvzkmURK76nY2__zJj3rndGg=" alt="">
+                    </div>
+                    <span class="opcao-produto">Opção 2:250g</span>
+                    <h3 class="descricao-produto">Frango desfiado com cenoura, purê de mandioquinha e repolho refolgado
+                    </h3>
+                    <div class="preco-botao-comprar">
+                        <p class="preco-produto">R$16,00</p>
+                        <input class="botao-comprar-produto" type="button" value="Comprar">
+                    </div>
+                </div>
+
+                <div class="produto">
+                    <div>
+                        <img class="imagem-produto" src="https://media.istockphoto.com/id/1334076566/pt/foto/selective-focus-of-man-having-lunch-in-the-restaurant-and-holding-mobile-phone-in-hands-taking.jpg?s=1024x1024&w=is&k=20&c=U7xfFyFhcP8-TL7UacjlH1xAnctuedoK5xGGSef-BiQ=" alt="">
+                    </div>
+                    <span class="opcao-produto">Opção 3:250g</span>
+                    <h3 class="descricao-produto">Carne Moída, purê de abóbora, Mix de legumes( abobrinha, cenoura e
+                        brócolis)</h3>
+                    <div class="preco-botao-comprar">
+                        <p class="preco-produto">R$16,00</p>
+                        <input class="botao-comprar-produto" type="button" value="Comprar">
+                    </div>
+                </div>
+
+                <div class="produto">
+                    <div>
+                        <img class="imagem-produto" src="https://media.istockphoto.com/id/1173140632/pt/foto/chef-preparing-food-at-the-kitchen.jpg?s=1024x1024&w=is&k=20&c=1ANT_5Ne7nevTIA3MfwJ_ajGJ9j2Nd4_DkXhxmjOOi8=" alt="">
+                    </div>
+                    <span class="opcao-produto">Opção 4:250g</span>
+                    <h3 class="descricao-produto">Arroz integral ou branco, carne de panela e mix de legumes</h3>
+                    <div class="preco-botao-comprar">
+                        <p class="preco-produto">R$16,00</p>
+                        <input class="botao-comprar-produto" type="button" value="Comprar">
+                    </div>
+                </div>
+
+                <div class="produto">
+                    <div>
+                        <img class="imagem-produto" src="https://images.pexels.com/photos/4055122/pexels-photo-4055122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <span class="opcao-produto">Opção 5:250g</span>
+                    <h3 class="descricao-produto">Arroz branco ou integral, filé de frango e cenoura refogada</h3>
+                    <div class="preco-botao-comprar">
+                        <p class="preco-produto">R$16,00</p>
+                        <input class="botao-comprar-produto" type="button" value="Comprar">
+                    </div>
+                </div>
+
+                <div class="produto">
+                    <div>
+                        <h1 class="especial-mes">?</h1>
+                    </div>
+                    <span class="opcao-produto">Opção 6:?g</span>
+                    <h3 class="descricao-produto">Marmita mistério
+                        (Especial halloween)</h3>
+                    <div class="preco-botao-comprar">
+                        <p class="preco-produto">R$?</p>
+                        <input class="botao-comprar" type="button" value="Comprar" disabled>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ofertas" class="ofertas verde">
+            <div class="titulo">
+                <h1>Melhores ofertas</h1>
+            </div>
+
+            <div class="conteudo">
+
+                <div class="oferta">
+                    <div class="imagem">
+                        <img src="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <div class="descricao">
+                      <p class="desconto hidden"><span></span></p>
+                        <h3 class="opcao-produto">Kit 10 marmitas - Almoço e Jantar</h3>
+                        <p class="descricao-produto">Já imaginou passar 10 dias comendo saudável, com muita variedade e sabor, sem sujar a louça? Aqui, você garante tudo isso!</p>
+                    </div>
+                    <div class="preco-btn">
+                        <p class="preco-produto">R$160,00</p>
+                        <p>R$16,00/refeição</p>
+                        <input class="botao-comprar-produto" type="button" value="comprar">
+                    </div>
+                </div>
+
+                <div class="oferta">
+                    <div class="imagem">
+                        <img src="https://images.pexels.com/photos/9390537/pexels-photo-9390537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <div class="descricao">
+                        <p class="desconto">Desconto<span>R$20,00</span></p>
+                        <h3 class="opcao-produto">Kit 20 marmitas -  Come que Cresce</h3>
+                        <p  class="descricao-produto">Já imaginou passar 20 dias comendo saudável, com muita variedade e sabor, sem sujar a louça? Aqui, você garante tudo isso!</p>
+                    </div>
+                    <div class="preco-btn">
+                        <p class="preco-produto" hidden>R$300,00</p>
+                        <p class="preco-antigo">R$16,00</p>
+                        <p>R$15,00/refeição</p>
+                        <input class="botao-comprar-produto" type="button" value="comprar">
+                    </div>
+                </div>
+
+                <div class="oferta">
+                    <div class="imagem">
+                        <img src="https://images.pexels.com/photos/4055122/pexels-photo-4055122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <div class="descricao">
+                        <p class="preco-produto" hidden>R$435,00</p>
+                        <p class="desconto">Desconto<span>R$35,00</span></p>
+                        <h3 class="opcao-produto">Kit 30 marmitas - Vem monstro</h3>
+                        <p  class="descricao-produto">Já imaginou passar 30 dias comendo saudável, com muita variedade e sabor, sem sujar a louça? Aqui, você garante tudo isso!</p>
+                    </div>
+                    <div class="preco-btn">
+                        <p class="preco-antigo">R$16,00</p>
+                        <p>R$14,50/refeição</p>
+                        <input class="botao-comprar-produto" type="button" value="comprar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-montar" class="como-montar branco">
+            <div class="titulo">
+                <h1>Como montar suas marmitas fit</h1>
+                <p>Prepare suas próprias Marmitas Fit: Nutrição balanceada a preços acessíveis!</p>
+            </div>
+
+            <div class="conteudo">
+                <div class="dicas">
+                    <ul>
+                        <li>Primeiro você pode nos encaminhar à sua dieta prescrita pelo seu nutricionista.</li>
+                        <li>Alinhamos as porções e quantidade dos alimentos de acordo com suas dieta.</li>
+                        <li>As marmitas terão porções balanceadas de proteínas, carboidratos e legumes/verduras, conforme suas dieta.</li>
+                        <li>Depois de montadas estarão prontas para o consumo e para serem congeladas e ser utilizada durante à semana.</li>
+                        <li><span>Dica de ouro:</span> Ao seguir sua dieta prescrita e preparar suas marmitas fit, planejamento é essencial. Dedique tempo semanalmente para planejar suas refeições, mantenha a consistência na preparação e aproveite o sabor com variedade de ingredientes e temperos saudáveis. Mantenha o foco em sua saúde e bem-estar. Tudo isso com nossas marmitas da <span>marmitando</span>.</li>
+                    </ul>
+                </div>
+
+                <div class="video">
+                    <video muted loop autoplay src="./movie/video.mp4"></video>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona-nossa-experiencia" class="como-funciona-nossa-experiencia verde">
+            <div class="titulo">
+                <h1>Como funciona a nossa experiência</h1>
+                <p>Da escolha dos pratos à preparação, o ingrediente que não falta na nossa marmitando é a praticidade!</p>
+            </div>
+
+            <div class="conteudo">
+                <div class="experiencia">
+                    <div class="img">
+                        <img src="https://images.pexels.com/photos/6868797/pexels-photo-6868797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <h3>Entrega rápida</h3>
+                    <p>A entrega da Marmitando é incrivelmente rápida! Fiz o meu pedido hoje e, surpreendentemente, já estarei desfrutando dessa maravilhosa marmitada fit amanhã. Isso sim é eficiência!</p>
+                </div>
+
+                <div class="experiencia">
+                    <div class="img">
+                        <img src="./image/experiencia-2.png" alt="">
+                    </div>
+                    <h3>Alimentos frescos</h3>
+                    <p>A Marmitando prepara suas marmitadas fit com ingredientes incrivelmente frescos. Vou desfrutar de uma refeição saudável e saborosa, graças à qualidade dos ingredientes.</p>
+                </div>
+
+                <div class="experiencia">
+                    <div class="img">
+                        <img src="./image/experiencia-3.png" alt="">
+                    </div>
+                    <h3>Validade e confiança</h3>
+                    <p>A validade de congelamento das marmitadas fit da Marmitando é impressionante. Suas refeições mantêm a qualidade e o sabor mesmo após longos períodos no freezer. </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre branco">
+            <div class="titulo">
+                <h1>O que falam sobre a gente</h1>
+                <p>Veja o que os nossos clientes estão falando sobre a gente.</p>
+            </div>
+
+            <div class="conteudo">
+               <div class="falas">
+                <div class="stars">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                </div>
+                <p>“Estou aqui aproveitando uma marmitada fit da Marmitando, e é simplesmente incrível! Cada garfada é uma explosão de sabores saudáveis e deliciosos. Sinto-me bem cuidando da minha saúde enquanto desfruto desta refeição incrível..”</p>
+                <h3>Jonas D. O.</h3>
+               </div>
+               
+               <div class="falas">
+                <div class="stars">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                </div>
+                <p>“Não consigo resistir a essa marmitada fit da Marmitando. Ela é tão gostosa que nem parece saudável, mas sei que estou fazendo algo de bom para mim a cada mordida. É uma ótima opção para quem busca equilíbrio entre sabor e nutrição..”</p>
+                <h3>Marta S. C.</h3>
+               </div>
+
+               <div class="falas">
+                <div class="stars">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                    <img src="./assets/star.svg" alt="">
+                </div>
+                <p>“Essa marmitada fit da Marmitando é um verdadeiro achado! É saborosa, leve, equilibrada e me faz sentir que estou fazendo escolhas inteligentes para o meu corpo, e essencialmente sem abrir mão do prazer de uma boa refeição.”</p>
+                <h3>Jackline S. B.</h3>
+               </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="verde">
+        <div class="conteudo">
+            <div class="info">
+                <h3>Conecte-se</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/eufitmarmitando/?igshid=NzZhOTFlYzFmZQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            </ul>
+            </div>
+
+            <div class="info">
+                <h3>Ajuda</h3>
+            <ul>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li>Contato</li>
+            </ul>
+            </div>
+
+            <div class="info">
+                <h3>Contato</h3>
+            <ul>
+                <li><a href="mailto:eufitmarmitando@gmail.com">eufitmarmitando@gmail.com</a></li>
+                <li><i class="fa-brands fa-whatsapp"></i> (11)98448-1182</li>
+                <li>Domingo a Domingo das 9h às 18h</li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>Copyright © Marmitando - Since 2023</p>
+        </div>
+
+        
+    </footer>
+
+    <div class="modal-off">
+
+        <main>
+            <div class="titulo">
+                <h1>Meu carrinho</h1>
+            </div>
+
+            <div class="conteudo"></div>
+
+            <div class="subtotal">
+                <p>Subtotal: <span>R$ 0,00</span></p>
+            </div>
+
+            <div class="resumo-cep">
+                <div class="resumo cep">
+                    <div>
+                        <h3>CEP</h3>
+                        <input class="input-style" type="text" name="cep" id="cep" placeholder="CEP">
+                        
+                        <div id="conteudo" class="conteudo">
+                            
+                        </div>
+                        <input id="botao-cep" class="botao-comprar" type="button" value="Buscar CEP">
+                    </div>
+                </div>
+
+                <div class="resumo">
+                    <div>
+                        <h3>Resumo</h3>
+                        <div class="conteudo">
+                            <p class="valor-produtos">Valor dos produtos <span></span></p>
+                            <p class="frete">Frete fixo (SP-Capital) <span>R$ 5,00</span></p>
+                            <p class="total-compra">Total da compra <span>R$ 0,00</span></p>
+                        </div>
+                        <input id="finalizar-pedido" class="botao-comprar" type="button" value="Comprar">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="verde">
+            <div class="conteudo">
+                <div class="info">
+                    <h3>Conecte-se</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/eufitmarmitando/?igshid=NzZhOTFlYzFmZQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                </ul>
+                </div>
+    
+                <div class="info">
+                    <h3>Ajuda</h3>
+                <ul>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li>Contato</li>
+                </ul>
+                </div>
+    
+                <div class="info">
+                    <h3>Contato</h3>
+                <ul>
+                    <li><a href="mailto:eufitmarmitando@gmail.com">eufitmarmitando@gmail.com</a></li>
+                    <li><i class="fa-brands fa-whatsapp"></i> (11)98448-1182</li>
+                    <li>Domingo a Domingo das 9h às 18h</li>
+                </ul>
+                </div>
+            </div>
+    
+            <div class="copy">
+                <p>Copyright © Marmitando - Since 2023</p>
+            </div>
+        </footer>
+    </div>
+    <div class="btn-wpp">
+        <a href="https://wa.me/5511984481182?text=Gostaria%20de%20fazer%20um%20pedido!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div class="pop-up-on"></div>
+</body>
+
+</html>
+   
